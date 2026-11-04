@@ -1,0 +1,58 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# STM32CubeIDE and other local build outputs
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+*.o
+*.obj
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+
+# Local IDE state (retain .project, .cproject, .ioc, and shareable settings)
+.metadata/
+.recommenders/
+.vscode/
+.idea/
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.ui.ide.prefs
+*.launch
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Large datasets and trained models
+dataset/
+datasets/
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.engine
+*.weights
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
