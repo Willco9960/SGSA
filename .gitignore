@@ -36,6 +36,7 @@ Thumbs.db
 Desktop.ini
 
 # Large datasets and trained models
+Plant_Dataset/
 dataset/
 datasets/
 *.onnx
