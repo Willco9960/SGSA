@@ -1,4 +1,6 @@
-"""Train a plant detector on an existing YOLO-format dataset."""
+"""Working on trianing the model from a few datasets i have found online
+woking only on basil and mint at the moment by best guess we will need roughly 500 images
+of each ot get a decently effective model"""
 import argparse
 
 from ultralytics import YOLO
