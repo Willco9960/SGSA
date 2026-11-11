@@ -33,7 +33,7 @@ Confirm the output identifies the 3080 before training. A working NVIDIA driver 
 
 ## 3. Prepare a dataset
 
-Export a labeled object-detection dataset in Ultralytics YOLO format. It needs mint and basil boxes, training and validation splits, and a `data.yaml`; use a held-out test split for final evaluation. Inspect labels and class names before training. Keep photos of the same plants or capture sessions together in one split to limit leakage. The dataset is not included and the code does not download one.
+Export a labeled object-detection dataset in Ultralytics YOLO format. It needs mint and basil boxes, training and validation splits, and a `data.yaml`; use a held-out test split for final evaluation. Inspect labels and class names before training. Keep photos of the same plants or capture sessions together in one split to limit leakage. The dataset is not included and the code does not download one. The Teams ZIP herbs.v4i.yolov11.zip contains 12 classes (not just mint and basil). Extract it on the Windows computer and use the data.yaml inside the extracted directory; retain the images and labels directories together. The current test split has only one basil and three mint images, so it is not a reliable final assessment.
 
 Example layout:
 ```
