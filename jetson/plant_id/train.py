@@ -10,7 +10,7 @@ def main():
     parser.add_argument("--model", default="yolo11n.pt")
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--imgsz", type=int, default=640)
-    parser.add_argument("--batch", type=float, default=-1)
+    parser.add_argument("--batch", type=float, default=-1.0)
     parser.add_argument("--device", default="0", help="CUDA device, e.g. 0; use cpu for a smoke test")
     args = parser.parse_args()
 
